@@ -19,7 +19,7 @@ h1 {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto 1fr;
-    }
+}
 
 .brand {
     grid-column: 1 / span 2;
@@ -29,7 +29,7 @@ h1 {
     font-size: 25px;
     font-weight: bold;
     color: white;
-    }
+}
 
 .page-links {
     grid-column: 3 / span 2;
@@ -37,14 +37,14 @@ h1 {
     text-align: right;
     background-color: #379EA8;
     padding: 10px;
-    }
+}
 
 .main {
     grid-column: 1 / -1;
     grid-row: 2;
     width: 75vw;
     margin: 0 auto;
-    }
+}
 
 .menu-button {
     font-size: 20px;
@@ -54,4 +54,16 @@ h1 {
     border-style: solid;
     border-radius: 5px;
     border-color: white;
-    }
+}
+
+.home_splash{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+
+figcaption{
+    color: grey;
+    font-weight: 100;
+}
+
