@@ -4,11 +4,16 @@ html, body {
     padding: 0;
     height: 100%;
     width: 100%;
-    }
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
 
 h1 {
     color: #ce8686f0;
-    }
+    font-weight: 300;
+}
 
 .grid-container {
     display: grid;
