@@ -7,13 +7,14 @@
         <title>International Food Festival - A Culinary Journey Around the World</title>
 
         <link rel="stylesheet" href="css/general_styles.css">
+        <link rel="stylesheet" href="css/about_style.css">
         <!--Link in the CSS -->
     </head>
 
     <body>
         <div class="grid-container">
             <div class="brand">World of Flavors</div>
-             <div class="page-links">
+            <div class="page-links">
                 <a href="index.html"><button class="menu-button">Home</button></a>
                 <a href="gallery.html"><button class="menu-button">Gallery</button></a>
                 <a href="about.html"><button class="menu-button">About</button></a>
@@ -22,7 +23,47 @@
 
             <div class="main">
 
-            <h1>Welcome to A World of Flavors in Every Bite</h1>
+                <h1>About a World of Flavors!</h1>
 
+            </div> <!-- closes the main div -->
+        </div> <!-- closes the grid-container div -->
+        
+        <div class="about-container">
+            <div id="about-item-1">
+                <figure class="section-icon">
+                    <img src="images/weather.png" alt="Weather icon with sun and clouds"
+                </figure>
+                <h4>Current Weather</h4>
+                <p>Temperature</p>
+                <p id="current_temperature">??</p>
+                <p>Wind Speed</p>
+                <p id="current_windspeed">??</p>
+            </div>
+            <div id="about-item-2">
+                <h3>Food Festival</h3>
+                <h3>About Us</h3>
+            </div>
+            <div id="about-item-3">
+                <form id="subscribe-form">
+                    <h5>Subscibe to our newsletters!</h5>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+
+                    <label for="suburb">Suburb</label>
+                    <input type="text" id="suburb" name="suburb" placeholder="Enter your suburb" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                    <input type="submit" value="Subscribe" id="subscribe-submit-button" disabled>
+                </form>
+                <div id="responseMessage"></div>
+            </div> 
+            <div id="about-item-4">
+
+            </div>
+        </div>
+
+        <script src="js/about_api.js"></script>
     </body>
 </html>
