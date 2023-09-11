@@ -92,9 +92,9 @@ h1 {
         grid-auto-rows: min-content;
         justify-items: center;
         align-items: start;
-        text-align: center;
         gap: 3vh;
         font-size: small;
+        
     }
 
     .flex-side-menu img {
@@ -102,6 +102,7 @@ h1 {
         height: auto;
         min-width: 24px;
         max-width: 40px;
+        margin: auto;
     }
 
     .flex-side-menu img {
