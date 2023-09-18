@@ -31,6 +31,73 @@ h1 {
     font-weight: 600;
 }
 
+.text-center {
+    text-align: center;
+}
+
+.grab-text {
+    color: #fff;
+    font-weight: 200;
+    font-size: large;
+    text-align: center;
+    padding: 0 5vw;
+}
+
+.page-header {
+    color: var(--lightgrey);
+    font-weight: 600;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.m-2 {
+    margin: 2vh 2vw;
+}
+
+.mx-2 {
+    margin: 0 2vw;
+}
+
+.my-2 {
+    margin: 2vh 0vw;
+}
+
+.p-2 {
+    margin: 2vh 2vw;
+}
+
+.px-2 {
+    margin: 0 2vw;
+}
+
+.py-2 {
+    margin: 2vh 0vw;
+}
+
+.card {
+    border: 1px solid var(--dark2);
+    border-radius: 10px;
+    box-shadow: 5px 10px 50px var(--mindgrey);
+}
+
+.card-header {
+    color: white;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.card-banner-image {
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 30vh;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-body-text {
+    color: white;
+}
 /* Flexbox layout for overall page */
 .flex-container {
     display: flex;
@@ -147,6 +214,9 @@ h1 {
     .col-md-11 { grid-column: span 11; }
     .col-md-12 { grid-column: span 12; }
     
+    .grab-text{
+        text-align: left !important;
+    }
 }
 
 /* Desktop: These rules are only applied if the screen is wider than 768px */
@@ -200,5 +270,8 @@ h1 {
     .col-md-10 { grid-column: span 10; }
     .col-md-11 { grid-column: span 11; }
     .col-md-12 { grid-column: span 12; }
-    
+
+    .grab-text{
+        text-align: left !important;
+    }
 }
