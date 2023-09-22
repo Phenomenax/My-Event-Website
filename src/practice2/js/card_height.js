@@ -15,4 +15,4 @@ const changeCardHeights = () => {
 }
 
 window.addEventListener('load', changeCardHeights);
-window.addEventListener('resize', changeCardHeights);
+window.addEventListener('resize', changeCardHeights);s
