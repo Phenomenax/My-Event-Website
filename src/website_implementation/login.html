@@ -8,14 +8,14 @@
 
         <!-- Link in the CSS -->
         <link rel="stylesheet" href="css/general_style.css">
-        <link rel="stylesheet" href="css/home_styles.css"
+        <link rel="stylesheet" href="css/login_style.css">
 
         <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Indie+Flower&family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
     </head>
-    
+
     <body>
         <div class="header-menu" aria-label="Main menu">
             <div class="brand">
@@ -41,36 +41,27 @@
             </a>
         </div>
 
-        <section class="flex-main-content main-content" aria-label="Main-content">
-            <div class="album-today">
-                <div class="col-6">
-                    <img src="media/Stream.jpeg" alt="Album cover of Stream">
+        <!-- The Login Form -->
+        <div class="login-form">
+            <h1>Login</h1>
+            <form method="post">
+                <div class="login-input">
+                    <label>Username</label>
+                    <span></span>
+                    <input type="text" required>
                 </div>
-                <div class="col-6">
-                    <h1 style="font-family: 'Indie Flower', cursive; font-size: 50px;">Album Today</h1>
-                    <h2 style="font-family: 'ABeeZee', sans-serif;">Stream by<br>ZhuYouHui</h2>
-                    <p style="font-family:'Times New Roman', Times, serif; font-size: large;">The math rock from Shanghai, China brings the authentic emo sound from the 90s. 
-                        There complex but groovy drum parts and melodic instrumental playing reminds you of the iconic math rock/emo sound of American Football and toe.</p>
+                <div class="login-input">
+                    <label>Password</label>
+                    <span></span>
+                    <input type="password" required>
                 </div>
-            </div>
-            <div class="recommendations">
-                <div class="col-12">
-                    <h1 style="font-family: 'Indie Flower', cursive; font-size: 50px;">Find Your Artist</h1>
+                <div class="login-forget">Forget Password?</div>
+                <input type="submit" value="Login">
+                <div class="signup-link">
+                    Doesn't have an account? <a href="#">Signup</a>
                 </div>
-                <div class="col-4" style="margin: 1vh 1vw;">
-                    <img src="media/david tao.jpeg" alt="Album cover of David Tao">
-                    <h1>David Tao</h1>
-                </div>
-                <div class="col-4" style="margin: 1vh 1vw;">
-                    <img src="media/effigy of the forgotten.jpg" alt="Album cover of Effigy of the Forgotten">
-                    <h1>Effigy of the Forgotten</h1>
-                </div>
-                <div class="col-4" style="margin: 1vh 1vw;" alt="Album cover of Who is Jill Scott?">
-                    <img src="media/who is jill scott.jpeg">
-                    <h1>Who is Jill Scott?</h1>
-                </div>
-            </div>
-        </section>
+            </form>
+        </div>
 
         <div class="bottom-menu">
             <div class="bottom-page-links">
