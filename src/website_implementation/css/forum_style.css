@@ -36,7 +36,7 @@
 
 .forum-row {
     display: grid;
-    grid-template-columns: 10% 55% 15% 20%;;
+    grid-template-columns: 10% 55% 15% 20%;
 }
 
 .forum-column {
@@ -62,4 +62,69 @@
     width: 3vw;
     height: 3vw;
     object-fit: cover;
+}
+
+@media only screen and (max-width: 601px) {
+    .forum-row {
+        display: grid;
+        grid-template-columns: 25% 75%;
+        grid-template-rows: 55% 45%;
+    }
+
+    .forum-column {
+        padding: 5px;
+        margin: 2px;
+        border-radius: 5px;
+        background-color: #dac8fd;
+    }
+
+    .article-icon img {
+        width: 15vw;
+        height: 15vw;
+        object-fit: cover;
+    }
+
+    .phone-center {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .posts-icon img {
+        width: 10vw;
+        height: 10vw;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1194px) {
+    .forum-row {
+        display: grid;
+        grid-template-columns: 15% 50% 15% 20%;
+    }
+
+    .forum-column {
+        padding: 5px;
+        margin: 2px;
+        border-radius: 5px;
+        background-color: #dac8fd;
+    }
+
+    .article-icon img {
+        width: 8vw;
+        height: 8vw;
+        object-fit: cover;
+    }
+
+    .phone-center {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .posts-icon img {
+        width: 4vw;
+        height: 4vw;
+        object-fit: cover;
+    }
 }

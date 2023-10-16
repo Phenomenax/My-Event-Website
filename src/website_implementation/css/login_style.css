@@ -2,6 +2,10 @@ body {
     background-color: #EDE4FF;
 }
 
+.form-container {
+    flex: 1;
+}
+
 .login-form {
     margin: 0;
     padding: 0;
@@ -89,9 +93,4 @@ input[type="submit"]:hover {
 
 .signup-link a:hover{
     text-decoration: underline;
-}
-
-.bottom-menu {
-    position: absolute;
-    bottom: 0;
 }

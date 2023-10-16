@@ -19,6 +19,7 @@ fetch(baseUrl, requestOptions)
 .then(data => {
     console.log(data);
     const album_1 = document.getElementById('album_1');
+    const album_2 = document.getElementById('album_2');
     album_1.innerText = data[0].song_title;
     album_2.innerText = data[1].song_title
 })
