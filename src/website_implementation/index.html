@@ -34,7 +34,7 @@
                 </div>
             </div>
             <div class="page-links">
-                <a href="" class="nav-link" aria-label="Forum" tabindex="0">Forum</a>
+                <a href="forum.html" class="nav-link" aria-label="Forum" tabindex="0">Forum</a>
             </div> <!-- closes the page-links div -->             
             <a href="login.html" class="icon">
                 <img src="media/user.png">
@@ -46,7 +46,7 @@
                 <div class="col-6">
                     <img src="media/Stream.jpeg" alt="Album cover of Stream">
                 </div>
-                <div class="col-6">
+                <div class="col-6" id="album-today-text">
                     <h1 style="font-family: 'Indie Flower', cursive; font-size: 50px;">Album Today</h1>
                     <h2 style="font-family: 'ABeeZee', sans-serif;">Stream by<br>ZhuYouHui</h2>
                     <p style="font-family:'Times New Roman', Times, serif; font-size: large;">The math rock from Shanghai, China brings the authentic emo sound from the 90s. 
@@ -59,15 +59,15 @@
                 </div>
                 <div class="col-4" style="margin: 1vh 1vw;">
                     <img src="media/david tao.jpeg" alt="Album cover of David Tao">
-                    <h1>David Tao</h1>
+                    <h1 id="album_1">Loading</h1>
                 </div>
                 <div class="col-4" style="margin: 1vh 1vw;">
                     <img src="media/effigy of the forgotten.jpg" alt="Album cover of Effigy of the Forgotten">
-                    <h1>Effigy of the Forgotten</h1>
+                    <h1 id="album_2">Loading</h1>
                 </div>
                 <div class="col-4" style="margin: 1vh 1vw;" alt="Album cover of Who is Jill Scott?">
                     <img src="media/who is jill scott.jpeg">
-                    <h1>Who is Jill Scott?</h1>
+                    <h1 id="album_3">Who is Jill Scott?</h1>
                 </div>
             </div>
         </section>
@@ -81,5 +81,7 @@
                 <h3>Language: English</h3>
             </div>
         </div>
+
+        <script src="js/api.js"></script>
     </body>
 </html>
