@@ -41,34 +41,34 @@
         </div>
 
         <div class="posting-content">
-            <div class="login-form">
+            <div class="post-form">
                 <h1>Post Your Song</h1>
-                <form method="post">
-                    <div class="login-input">
-                        <label>Artist Name</label>
-                        <input type="text">
+                <form enctype="multipart/form-data">
+                    <div class="post-input">
+                        <label for="name">Artist Name</label>
+                        <input type="text" id="name" name="name" required>
                     </div>
-                    <div class="login-input">
-                        <label>Song Title</label>
-                        <input type="text">
+                    <div class="post-input">
+                        <label for="song_title">Song Title</label>
+                        <input type="text" id="song_title" name="song_title" required>
                     </div>
-                    <div class="login-input">
-                        <label>Genre</label>
-                        <input type="text">
+                    <div class="post-input">
+                        <label for="genre">Genre</label>
+                        <input type="text" id="genre" name="genre" required>
                     </div>
-                    <div class="login-input">
-                        <label>Description</label>
-                        <input type="text">
+                    <div class="post-input">
+                        <label for="description">Description</label>
+                        <textarea id="description" name="description" rows="4" required></textarea>
                     </div>
-                    <div class="login-input">
-                        <label>Message</label>
-                        <input type="text">
+                    <div class="post-input">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
                     </div>
-                    <div class="login-input">
-                        <label>Audio File</label>
-                        <input type="text">
+                    <div class="post-input">
+                        <label for="audio_file" id="audio-file-input-label">Audio File</label>
+                        <input type="file" name="audio_file" id="audio_file" accept="audio/*"> <span id="selected-file-name"></span>
                     </div>
-                    <input type="submit" value="Submit">
+                    <input class="btn btn-submit" type="submit" value="Submit Song">
                 </form>
             </div>
         </div>
