@@ -46,7 +46,7 @@ const handleFormSubmit = event => {
     }))
     .then(data => {
         console.log(data);
-        alert("Event submitted successfully!");
+        alert("Song submitted successfully!");
     })
     .catch(error => {
         console.error("There was a problem with the fetch operation:", error.message);
