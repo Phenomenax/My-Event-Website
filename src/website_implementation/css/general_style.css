@@ -97,6 +97,16 @@ html, body {
     margin-left: 10%;
 }
 
-.language {
-    margin-right: 10%;
+.help_center {
+    margin-right: 7%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.help_center img {
+    width: 45px;
+}
+
+.help_center img:hover {
+    cursor: pointer;
 }

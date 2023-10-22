@@ -93,4 +93,5 @@ input[type="submit"]:hover {
 
 .signup-link a:hover{
     text-decoration: underline;
+    cursor: pointer;
 }
