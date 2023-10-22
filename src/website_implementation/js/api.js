@@ -27,6 +27,6 @@ fetch(urlWithParams, requestOptions)
     album_2.innerText = data[5].song_title;
     album_3.innerText = data[6].song_title;
     album_today_description.innerText = data[3].description;
-    album_today_musician.innerText = data[3].song_title + ' By\n' + data[3].name
+    album_today_musician.innerText = data[3].song_title + '\n' + data[3].name
 })
 .catch(error => console.log('error', error));
