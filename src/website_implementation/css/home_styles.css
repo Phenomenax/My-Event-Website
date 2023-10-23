@@ -23,6 +23,10 @@
     cursor: pointer;
 }
 
+.album-today audio {
+    margin-bottom: 30px;
+}
+
 .recommendations {
     display: grid;
     grid-template-columns: repeat(12, 1fr);

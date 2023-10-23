@@ -22,7 +22,7 @@ body {
 }
 
 .song-play {
-    margin-top: 2%;
+    margin-top: 4%;
     margin-left: 10%;
 }
 
@@ -35,16 +35,11 @@ body {
     cursor: pointer;
 }
 
-.song-play h3 {
-    display: inline;
-    margin-left: 2vw;
-}
-
 .song-play p {
     position: absolute;
     width: 25%;
     top: 12vh;
-    left: 25vw;
+    left: 32vw;
     font-size: 22px;
     line-height: 1.3em;
 }
@@ -135,7 +130,7 @@ span {
 .col-11 { grid-column: span 11; }
 .col-12 { grid-column: span 12; }
 
-@media only screen and (min-width: 601px) and (max-width: 1194px) {
+@media only screen and (max-width: 1194px) {
     .song-play p {
         display: none;
     }
