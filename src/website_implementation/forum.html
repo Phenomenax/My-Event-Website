@@ -17,6 +17,7 @@
     </head>
 
     <body>
+        <!-- Header menu bar -->
         <div class="header-menu" aria-label="Main menu">
             <div class="brand">
                 <a href="index.html" aria-label="Home" tabindex="0">TunePod</a>
@@ -26,7 +27,8 @@
                 <div class="search-content">
                     <input type="text" class="search-input">
                     <a href="">
-                        <img src="media/search.png" alt="search icon">
+                        <img src="media/search.png" alt="search button">
+                        <!-- image sourced from: https://www.flaticon.com/free-icon/search-interface-symbol_54481?term=search&page=1&position=1&origin=search&related_id=54481 -->
                     </a>
                 </div>
                 <!-- Right Search Button -->
@@ -34,20 +36,24 @@
                 </div>
             </div>
             <div class="page-links">
-                <a href="" class="nav-link" aria-label="Forum" tabindex="0">Forum</a>
-            </div> <!-- closes the page-links div -->             
+                <a href="forum.html" class="nav-link" aria-label="Forum" tabindex="0">Forum</a>
+            </div>            
             <a href="login.html" class="icon">
-                <img src="media/user.png">
+                <img src="media/user.png" alt="user profile button">
+                <!-- image sourced from: https://www.flaticon.com/free-icon/user_1144760?term=user&page=1&position=4&origin=search&related_id=1144760 -->
             </a>
         </div>
 
+        <!-- Forum content -->
         <div class="forum-content">
+            <!-- Original article section -->
             <div class="forum-title">
                 <h1>Editor's Corner</h1>
             </div>
-            <div class="forum-row">
+            <div class="forum-row" aria-role="Forum content area">
                 <div class="article-icon forum-column center">
-                    <img src="media/Nate Smith.webp" alt="">
+                    <img src="media/Nate Smith.webp" alt="Picture of Nate Smith">
+                    <!-- images sourced from: https://www.google.com/imghp?hl=en -->
                 </div>
                 <div class="article-title forum-column phone-center">
                     <h1><a href="">Nate Smith: Right In The Pocket</a></h1>
@@ -66,9 +72,10 @@
                 </div> 
             </div>
 
-            <div class="forum-row">
+            <div class="forum-row" aria-role="Forum content area">
                 <div class="article-icon forum-column center">
-                    <img src="media/Black Focus.png" alt="">
+                    <img src="media/Black Focus.png" alt="Album cover of Black Focus">
+                    <!-- images sourced from: https://www.google.com/imghp?hl=en -->
                 </div>
                 <div class="article-title forum-column phone-center">
                     <h1><a href="">Album Review: Black Focus</a></h1>
@@ -86,16 +93,18 @@
                     </h3>
                 </div> 
             </div>
-
+            
+            <!-- Forum section -->
             <div class="forum-title">
-                <h1>Editor's Corner</h1>
+                <h1>Forum</h1>
             </div>
-            <div class="forum-row">
+            <div class="forum-row" aria-role="Forum content area">
                 <div class="posts-icon forum-column center">
                     <img src="media/man.png" alt="An icon of a man">
+                    <!-- image sourced from: https://www.flaticon.com/free-icon/man_180672?term=user&page=1&position=61&origin=search&related_id=180672 -->
                 </div>
                 <div class="posts-title forum-column phone-center">
-                    <h2>So Drake Really Sucks...</h2>
+                    <h2><a href="">So Drake Really Sucks...</a></h2>
                     <p>By: Paul</p>
                 </div>
                 <div class="posts-replies forum-column center">
@@ -104,19 +113,19 @@
                 <div class="posts-lastreply forum-column phone-center">
                     <p><a href="">Last Post: </a>
                         <br>
-                        <a href="">Frank Zhang</a>
+                        <a href="">Judy</a>
                         <br>
-                        on <small>13 Oct 2023</small>
+                        on <small>14 Oct 2023</small>
                     </p>
                 </div> 
             </div>
 
-            <div class="forum-row">
+            <div class="forum-row" aria-role="Forum content area">
                 <div class="posts-icon forum-column center">
                     <img src="media/man.png" alt="An icon of a man">
                 </div>
                 <div class="posts-title forum-column phone-center">
-                    <h2>Check Out My New Song</h2>
+                    <h2><a href="">Check Out My New Song</a></h2>
                     <p>By: Bill</p>
                 </div>
                 <div class="posts-replies forum-column center">
@@ -132,12 +141,12 @@
                 </div> 
             </div>
 
-            <div class="forum-row">
+            <div class="forum-row" aria-role="Forum content area">
                 <div class="posts-icon forum-column center">
                     <img src="media/man.png" alt="An icon of a man">
                 </div>
                 <div class="posts-title forum-column phone-center">
-                    <h2>Highly recommend this band from Brisbane</h2>
+                    <h2><a href="">Highly recommend this band from Brisbane</a></h2>
                     <p>By: EmotionalDamage</p>
                 </div>
                 <div class="posts-replies forum-column center">
@@ -155,10 +164,11 @@
             
         </div>
 
+        <!-- Bottom menu bar -->
         <div class="bottom-menu">
             <div class="bottom-page-links">
-                <a href="" class="nav-link" aria-label="Forum" tabindex="0">About</a>
-                <a href="" class="nav-link" aria-label="Forum" tabindex="0">Contact Us</a>
+                <a href="#" class="nav-link" aria-label="Forum">About</a>
+                <a href="#" class="nav-link" aria-label="Forum">Contact Us</a>
             </div>
             <div class="help_center">
                 <img src="media/help center.png" alt="icon of help center" title="Help Center">

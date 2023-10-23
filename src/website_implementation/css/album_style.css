@@ -69,9 +69,9 @@ body {
 
 span {
     display: inline-block;
-    width: 50%; /* 设置线的宽度 */
-    height: 2px; /* 设置线的高度 */
-    background-color: #77BEFF; /* 设置线的颜色 */
+    width: 50%;
+    height: 2px;
+    background-color: #77BEFF;
     position: absolute;
     top: 50%;
     margin-left: 3vw;
@@ -134,3 +134,22 @@ span {
 .col-10 { grid-column: span 10; }
 .col-11 { grid-column: span 11; }
 .col-12 { grid-column: span 12; }
+
+@media only screen and (min-width: 601px) and (max-width: 1194px) {
+    .song-play p {
+        display: none;
+    }
+
+    .col-md-1 { grid-column: span 1; }
+    .col-md-2 { grid-column: span 2; }
+    .col-md-3 { grid-column: span 3; }
+    .col-md-4 { grid-column: span 4; }
+    .col-md-5 { grid-column: span 5; }
+    .col-md-6 { grid-column: span 6; }
+    .col-md-7 { grid-column: span 7; }
+    .col-md-8 { grid-column: span 8; }
+    .col-md-9 { grid-column: span 9; }
+    .col-md-10 { grid-column: span 10; }
+    .col-md-11 { grid-column: span 11; }
+    .col-md-12 { grid-column: span 12; }
+}

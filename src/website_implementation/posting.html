@@ -16,6 +16,7 @@
     </head>
 
     <body>
+        <!-- Header menu bar -->
         <div class="header-menu" aria-label="Main menu">
             <div class="brand">
                 <a href="index.html" aria-label="Home" tabindex="0">TunePod</a>
@@ -25,7 +26,8 @@
                 <div class="search-content">
                     <input type="text" class="search-input">
                     <a href="">
-                        <img src="media/search.png" alt="search icon">
+                        <img src="media/search.png" alt="search button">
+                        <!-- image sourced from: https://www.flaticon.com/free-icon/search-interface-symbol_54481?term=search&page=1&position=1&origin=search&related_id=54481 -->
                     </a>
                 </div>
                 <!-- Right Search Button -->
@@ -33,15 +35,17 @@
                 </div>
             </div>
             <div class="page-links">
-                <a href="" class="nav-link" aria-label="Forum" tabindex="0">Forum</a>
-            </div> <!-- closes the page-links div -->             
+                <a href="forum.html" class="nav-link" aria-label="Forum" tabindex="0">Forum</a>
+            </div>            
             <a href="login.html" class="icon">
-                <img src="media/user.png">
+                <img src="media/user.png" alt="user profile button">
+                <!-- image sourced from: https://www.flaticon.com/free-icon/user_1144760?term=user&page=1&position=4&origin=search&related_id=1144760 -->
             </a>
         </div>
 
+        <!-- Main content -->
         <div class="posting-content">
-            <div class="post-image">
+            <div class="post-image" aria-role="A poster for the website">
                 <img src="media/indie music.jpg" alt="a poster of the website">
                 <!-- image created by https://openart.ai/home -->
                 <h1>Post Your Music<br> And Join Us!</h1>
@@ -70,7 +74,7 @@
                         <textarea id="message" name="message" rows="4" required></textarea>
                     </div>
                     <div class="post-input">
-                        <label for="audio_file" id="audio-file-input-label">Audio File</label>
+                        <label for="audio_file" id="audio-file-input-label" aria-role="file submit button">Audio File</label>
                         <input type="file" name="audio_file" id="audio-file-input" accept="audio/*"> <span id="selected-file-name"></span>
                     </div>
                     <input class="btn btn-submit" type="submit" value="Submit Song">
@@ -78,10 +82,11 @@
             </div>
         </div>
 
+        <!-- Bottom menu bar -->
         <div class="bottom-menu">
             <div class="bottom-page-links">
-                <a href="" class="nav-link" aria-label="Forum" tabindex="0">About</a>
-                <a href="" class="nav-link" aria-label="Forum" tabindex="0">Contact Us</a>
+                <a href="#" class="nav-link" aria-label="Forum">About</a>
+                <a href="#" class="nav-link" aria-label="Forum">Contact Us</a>
             </div>
             <div class="help_center">
                 <img src="media/help center.png" alt="icon of help center" title="Help Center">
