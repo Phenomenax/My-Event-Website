@@ -84,9 +84,9 @@ html, body {
 }
 
 .bottom-menu { 
-    display: flex; /* 使用 flex 布局 */
-    justify-content: space-between; /* 使子元素均匀分布在水平方向上 */
-    align-items: center; /* 垂直居中对齐子元素 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #77BEFF;
 }
 

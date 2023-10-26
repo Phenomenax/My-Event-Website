@@ -6,6 +6,7 @@ const queryParams = {
     website_code: my_website_code
 }
 
+// Query parameters and request options
 const queryString = new URLSearchParams(queryParams).toString();
 const urlWithParams = baseUrl+"?"+queryString;
 
@@ -14,6 +15,7 @@ const requestOptions = {
     redirect: 'follow'
 };
 
+// Get functions and DOM manipulations
 fetch(urlWithParams, requestOptions)
 .then(response => response.json())
 .then(data => {
